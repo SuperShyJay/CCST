@@ -1,0 +1,30 @@
+
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#contact textarea{
+    height: 200px;
+    width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline: none;
+    border-color: #265ede;
+}
+
+
+/* Footer */
+
+#main-footer{
+    background: #265ede;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color:#fff;
+}
