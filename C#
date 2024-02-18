@@ -68,3 +68,19 @@ private void btnCreateAccount_Click(object sender, EventArgs e)
     registrationForm.ShowDialog();
 }
 
+log out
+private void btnLogout_Click(object sender, EventArgs e)
+{
+    // Close the current session or navigate back to the login screen
+    // Depending on your application's structure, you might clear session data, reset UI, or close the current form
+    // Here's an example assuming you have a LoginForm class for the login screen:
+
+    // Close the current form (assuming it's the main form)
+    this.Close();
+
+    // Alternatively, if you have a separate login form, you can navigate back to it:
+    // LoginForm loginForm = new LoginForm();
+    // loginForm.Show();
+}
+
+
