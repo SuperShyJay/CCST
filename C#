@@ -58,3 +58,13 @@ private void btnRegister_Click(object sender, EventArgs e)
     RegistrationForm registrationForm = new RegistrationForm();
     registrationForm.ShowDialog();
 }
+
+create an account
+
+private void btnCreateAccount_Click(object sender, EventArgs e)
+{
+    // Assuming you have a RegistrationForm class for the registration form
+    RegistrationForm registrationForm = new RegistrationForm();
+    registrationForm.ShowDialog();
+}
+
