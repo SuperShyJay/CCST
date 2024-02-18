@@ -1,0 +1,60 @@
+Login
+
+private void btnLogin_Click(object sender, EventArgs e)
+{
+    string username = txtUsername.Text;
+    string password = txtPassword.Text;
+
+    // Check username and password
+    if (username == "admin" && password == "password")
+    {
+        MessageBox.Show("Login successful!");
+        // Code to navigate to next screen or perform other actions after successful login
+    }
+    else
+    {
+        MessageBox.Show("Invalid username or password. Please try again.");
+    }
+}
+
+Show password
+
+private void btnShowPassword_Click(object sender, EventArgs e)
+{
+    if (txtPassword.PasswordChar == '*')
+    {
+        // Show password
+        txtPassword.PasswordChar = '\0'; // Set to null character to show the password
+        btnShowPassword.Text = "Hide Password"; // Change button text
+    }
+    else
+    {
+        // Hide password
+        txtPassword.PasswordChar = '*'; // Set to '*' to hide the password
+        btnShowPassword.Text = "Show Password"; // Change button text
+    }
+}
+
+Exit
+
+private void btnExit_Click(object sender, EventArgs e)
+{
+    Application.Exit();
+}
+
+Clear
+
+private void btnClear_Click(object sender, EventArgs e)
+{
+    txtUsername.Clear();
+    txtPassword.Clear();
+}
+
+Registration
+
+private void btnRegister_Click(object sender, EventArgs e)
+{
+    // Assuming you have a RegistrationForm class for the registration form
+    RegistrationForm registrationForm = new RegistrationForm();
+    registrationForm.ShowDialog();
+}
