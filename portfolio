@@ -4,7 +4,7 @@
 <head>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Web Site By AbdulDev</title>
+    <title>Portfolio Web Site By Jay</title>
     <!-- Custom CSS Link -->
     <link rel="stylesheet" href="style.css">
     <!-- Font Awesome Icon link -->
@@ -13,8 +13,7 @@
     <link data-minify="1" href='https://abduldev.com/wp-content/cache/min/1/boxicons@2.1.4/css/boxicons.min.css?ver=1708841492' rel='stylesheet'>
 <style id="wpr-lazyload-bg"></style><style id="wpr-lazyload-bg-exclusion"></style>
 <noscript>
-<style id="wpr-lazyload-bg-nostyle">:root{--wpr-bg-c6283e74-559a-4be1-ada1-617c000b3cb2: url('https://abduldev.com/wp-content/plugins/wp-rocket/assets/img/youtube.png');}</style>
-</noscript>
+
 <script type="application/javascript">const rocket_pairs = [{"selector":".rll-youtube-player .play","style":":root{--wpr-bg-c6283e74-559a-4be1-ada1-617c000b3cb2: url('https:\/\/abduldev.com\/wp-content\/plugins\/wp-rocket\/assets\/img\/youtube.png');}","hash":"c6283e74-559a-4be1-ada1-617c000b3cb2"}]; const rocket_excluded_pairs = [];</script></head>
 <body>
     <header class="header-sec">
