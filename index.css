@@ -85,7 +85,7 @@ img {
 }
 
 .section-title::after {
-    position: absolute;
+    position: absolute;O
     content: '';
     width: 64px;
     height: 0.18rem;
@@ -324,23 +324,10 @@ img {
     z-index: var(--z-back);
 }
 
-.skills__html {
-    width: 95%;
-}
 
-.skills__css {
-    width: 85%;
-}
-
-.skills__js {
-    width: 65%;
-}
-
-.skills__ux {
-    width: 85%;
-}
 
 .skills__img {
+    width: 200px;
     border-radius: .5rem;
     box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.792);
 }
