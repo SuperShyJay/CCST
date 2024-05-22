@@ -319,6 +319,16 @@ img {
 }
 
 .skills__names {
+    width: 100%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 2px solid var(--second-color);
+    outline: none;
+    margin-bottom: var(--mb-4);
+    transition: border .3s;
+    resize: none;
     display: flex;
     align-items: center;
 }
