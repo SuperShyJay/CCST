@@ -284,11 +284,20 @@ img {
 }
 
 .skills__subtitle {
-    margin-bottom: var(--mb-2);
+    width: 100%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 2px solid var(--second-color);
+    outline: none;
+    margin-bottom: var(--mb-4);
+    transition: border .3s;
+    resize: none;
 }
 
 .skills__text {
-    margin-bottom: var(--mb-4);
+    border: 2px solid var(--first-color);
 }
 
 .skills__data {
